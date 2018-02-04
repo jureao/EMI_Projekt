@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="AddActivity_textView_name" type="id"/>
+
+    <item type="id" name="all_subjects" />
+    <item type="id" name="submenu_java" />
+    <item type="id" name="layout3" />
+</resources>

@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Study Tracker</string>
+    <string name="action_settings">Einstellungen</string>
+    <string name="title_activity_navigation">NavigationActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="all">All subjects</string>
+    <string name="vorlesungen">Lectures  </string>
+    <string name="uebungen">Exercises </string>
+    <string name="daten">Data</string>
+    <string name="bearbeiten">delete subject </string>
+    <string name="faelligkeiten">Homework</string>
+    <string name="nav_new">Add new subject</string>
+    <string name="ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
+    <string name="addAct_name">Name: </string>
+    <string name="addAct_lecture">Lectures: </string>
+    <string name="addAct_exercise">Exercises:</string>
+    <string name="addAct_homework">Homework: </string>
+    <string name="radio_regularly">regularly </string>
+    <string name="radio_oneTime">one-time </string>
+    <string name="txt_startDate">start date: </string>
+    <string name="txt_endDate">end date: </string>
+    <string name="radio_daily">daily </string>
+    <string name="radio_weekly">weekly </string>
+    <string name="radio_biweekly">bi-weekly </string>
+    <string name="txt_dayOfWeek">day of week: </string>
+    <string name="txt_startTime">starting time: </string>
+    <string name="txt_endTime">ending time: </string>
+    <string name="btn_discard">Discard </string>
+    <string name="btn_accept">Save </string>
+    <string name="btn_edit">Edit </string>
+    <string name="all_subjects">All subjects </string>
+    v
+    <string name="btn_new">Add new Rule </string>
+    <string name="txt_missingEntry">Please make sure to fill in all information first.</string>
+    <string name="txt_fromAfterTo">Please make sure your start date is before you end date.</string>
+    <string name="txt_startAfterEnd">Please make sure your start date is before your end date.</string>
+    <string name="txt_oops">This message should never show up. I suggests restarting the app and praying it goes away. If that does not work try burning your phone and getting a new one.</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="filler2">Hier soll später mal die Statistik stehen</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="filler_calendar">Hier wird später mal der Google Calendar stehen.</string>
+</resources>

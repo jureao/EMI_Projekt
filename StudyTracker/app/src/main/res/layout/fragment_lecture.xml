@@ -1,0 +1,67 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.studytracker.LectureFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/btn_lectures"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/button"
+            android:layout_alignParentTop="true"
+            android:layout_alignRight="@+id/button"
+            android:layout_marginTop="24dp"
+            android:paddingBottom="15dp"
+            android:paddingTop="15dp"
+            android:text="@string/vorlesungen"
+            android:textSize="30sp"
+            />
+
+        <Button
+            android:id="@+id/btn_exercises"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn_lectures"
+            android:paddingBottom="15dp"
+            android:paddingTop="15dp"
+            android:text="@string/uebungen"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/btn_homework"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn_exercises"
+            android:paddingBottom="15dp"
+            android:paddingTop="15dp"
+            android:text="@string/faelligkeiten"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="120dp"
+            android:text="@string/bearbeiten"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/Data"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn_homework"
+            android:paddingBottom="15dp"
+            android:paddingTop="15dp"
+            android:text="@string/daten"
+            android:textSize="30sp" />
+    </RelativeLayout>
+
+</FrameLayout>
