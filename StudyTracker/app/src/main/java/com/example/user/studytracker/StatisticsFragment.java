@@ -102,6 +102,12 @@ public class StatisticsFragment extends Fragment {
             fillTextViews(2, (TextView) fragmentView.findViewById(R.id.txt_stats_exe_01), (TextView) fragmentView.findViewById(R.id.txt_stats_exe_02));
             fillTextViews(3, (TextView) fragmentView.findViewById(R.id.txt_stats_home_01), (TextView) fragmentView.findViewById(R.id.txt_stats_home_02));
         }
+        else{
+            fillTextViews(1, (TextView) fragmentView.findViewById(R.id.txt_stats_lec_01), (TextView) fragmentView.findViewById(R.id.txt_stats_lec_02));
+            fillTextViews(2, (TextView) fragmentView.findViewById(R.id.txt_stats_exe_01), (TextView) fragmentView.findViewById(R.id.txt_stats_exe_02));
+            fillTextViews(3, (TextView) fragmentView.findViewById(R.id.txt_stats_home_01), (TextView) fragmentView.findViewById(R.id.txt_stats_home_02));
+
+        }
 
 
 

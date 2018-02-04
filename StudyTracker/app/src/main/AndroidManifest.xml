@@ -27,7 +27,6 @@
         <activity android:name=".ExerciseActivity" />
         <activity android:name=".HomeworkActivity" />
         <activity android:name=".takePhotoActivity" />
-        <activity android:name=".Share"></activity>
     </application>
 
 </manifest>
